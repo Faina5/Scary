@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script rel="stylesheet" src="../JavaScript/main.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Страшные истории</title>
+    <link rel="icon" href="../pictures/skull-svgrepo-com.svg">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="../index.html" class="logo">
+                        <img src="../pictures/SCARY.svg" alt="logoScary">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="../index.html" class="menu__list-link">Главная</a></li>
+                            <li class="menu__list-item"><a href="./histories.html"  class="menu__list-link">Страшнные истории</a></li>
+                            <li class="menu__list-item"><a href="./add_history.html" class="menu__list-link">Добавить историю</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="music-player">
+                <audio controls>
+                    <source src="../audio/kevin-macleod-antechamber.mp3" type="audio/mpeg" />
+                    <source src="myAudio.ogg" type="audio/ogg" />
+                    <p>
+                      Ваш браузер не поддерживает HTML5 аудио. Вот взамен
+                      <a href="myAudio.mp4">ссылка на аудио</a>
+                    </p>
+                  </audio>
+                </div>
+            <div class="main__container">
+            <div class="container">
+                
+                    <h1>Река утопленников</h1>
+                    <p>В деревне Верхней Ростовской области я услышала необычную историю, которой и сама не очень-то поверила. Но местные жители клянутся, что все это правда <span id="dots">...</span><span id="more"><br><br>Неподалеку от деревни протекает речка Орловка. В июне 2003 года в ней утонули пять человек. Это назвали бы трагической случайностью, если бы не одна странность. На телах всех утопленников находили укусы и синие пятнышки. Казалось, кто-то хватал несчастных цепкими пальцами и утягивал на дно.<br>
+                        А в деревне этой жила одна старушка, звали ее баба Саша. Вот она-то и вспомнила не то сказку, не то легенду, что девушки, умершие до свадьбы, становятся русалками. А русалки тем и славятся, что щекочут, душат, кусают людей, а потом утягивают их на дно. В апреле того года в Орловке утопилась Таня Тка-ченко: двадцатилетняя девушка не смогла пережить измены жениха. Ее тело так и не нашли. Вот баба Саша и сказала, что утонувшие - наверняка Таниных рук дело. Она и дальше будет мстить людям, пока ее душа не успокоится.<br>
+                        Соседи стали над бабой Сашей подшучивать, что, мол, она на старости лет совсем в детство впала: сама в сказки верит и другим лапшу на уши вешает. Старушка обиделась, конечно. А на следующий день в реке опять человек утонул - к бабе Саше гости приехали, выпили и пошли купаться. Один из них захлебнулся. Чему ж тут удивляться? Нечего пьяному в воду
+                        лезть. Да только, когда через три дня тело нашли да из воды достали, на плече его был явный след укуса...<br>
+                        Надо сказать, это был последний утопленник. С тех пор - как отрезало, речка прекратила свои страшные «проказы». А через несколько лет кто-то из тех гостей, что купались пьяными, снова оказался в Верхней. Вот он-то и рассказал деревенским, что после того, как нашли утопленника, баба Саша ночью ходила к Орловке и якобы говорила там с Таней Ткаченко. О чем говорила? Вроде бы, уговаривала идти на кладбище, где по ее просьбе за бутылку мужики вырыли могилу. «Иди, - молила старушка, - иди, Танечка, отдыхай, устала ты очень». Ну, та якобы и пошла. А утром мужики засыпали могилу и поставили камень.<br></span></p>
+                    <button id="btn" onclick="readMore()">Читать далее</button>
+                    
+            
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="web-links">
+                <li class="web-link__vk">
+                    <a class="web-img__vk" href="https://vk.com/polinaiivanova">
+                    <img src="../pictures/vk.svg" alt="iconvk" id="vk"></a>  
+                </li>
+                <li class="web-link__telegram">
+                    <a class="web-img__telegram" href="https://t.me/openyoreyes"> 
+                    <img src="../pictures/telegram.svg" alt="icontele" id="telegram"></a>
+                </li>
+            </ul>
+            <p class="footer__copy">
+                Copyright 2023 ©SCARY
+            </p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
