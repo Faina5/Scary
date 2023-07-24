@@ -284,7 +284,7 @@ strong{
 
 .darknet-item{
   position: relative;
-  margin-left: auto;
+  margin: 20px;
   padding: 20px 0 20px 150px;
   min-height:100px;
   }
@@ -309,10 +309,6 @@ strong{
   left: 0;
   top: 0;
   font-size: 40px;
-}
-
-.darknet-item{
-  margin: 20px;
 }
 
 .darknet_video{
