@@ -27,7 +27,7 @@ h1{
 }
 
 }
-html, body{
+html, body, wrapperp{
     height: 100%;
 }
 
@@ -138,6 +138,7 @@ header{
     background-color:#1D1818;
     padding: 10px 0;
     color:#D9D9D9;
+    position: fixed;
   }
 
   .web-links{
