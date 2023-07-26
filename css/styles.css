@@ -465,12 +465,12 @@ button:hover{
     bottom: 0;
     padding-top: 200px;
     height: 100vh;
-    transform:translateX(100%);
+    transform:translateY(-100%);
     transition: transform 1s ease-in-out;
   }
   
   .menu__list.menu__list-item--active{
-    transform:translateX(0%)
+    transform:translateY(0%)
   }
 
   .main__container {
